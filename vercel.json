@@ -1,8 +1,14 @@
 {
   "routes": [
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/ruthika.html"
+    }
+  ],
+  "builds": [
+    {
+      "src": "ruthika.html",
+      "use": "@vercel/static"
     }
   ]
 }
