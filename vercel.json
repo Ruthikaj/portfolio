@@ -1,22 +1,7 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/ruthika.html"
-    }
-  ],
-  "builds": [
-    {
-      "src": "ruthika.html",
-      "use": "@vercel/dynamic"
-    },
-    {
-      "src": "style.css",
-      "use": "@vercel/dynamic"
-    },
-    {
-      "src": "script.js",
-      "use": "@vercel/dynamic"
-    }
-  ]
+    "routes": [
+      {
+        "src": "/.*",
+        "dest": "/ruthika.html"
+      }  
 }
