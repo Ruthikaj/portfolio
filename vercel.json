@@ -8,15 +8,15 @@
   "builds": [
     {
       "src": "ruthika.html",
-      "use": "@vercel/static"
+      "use": "@vercel/dynamic"
     },
     {
       "src": "style.css",
-      "use": "@vercel/static"
+      "use": "@vercel/dynamic"
     },
     {
       "src": "script.js",
-      "use": "@vercel/static"
+      "use": "@vercel/dynamic"
     }
   ]
 }
